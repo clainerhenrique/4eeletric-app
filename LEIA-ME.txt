@@ -1,0 +1,8 @@
+COMO GERAR O APK (sem instalar nada no computador)
+1. Crie uma conta gratuita em github.com e clique em New repository (nome: 4eeletric-app, pode ser Private).
+2. No repositorio, clique em "uploading an existing file" e envie TODO o conteudo desta pasta (inclusive a pasta oculta .github).
+   Dica: pelo computador, arraste a pasta inteira descompactada.
+3. Abra a aba Actions > "Gerar APK" > Run workflow. Aguarde uns 5 a 8 minutos.
+4. Quando ficar verde, abra a execucao e baixe "4EEletric-APK" (arquivo zip com app-debug.apk).
+5. Envie o app-debug.apk para o celular e instale (permita "instalar apps desconhecidos").
+Observacao: este APK e de teste (debug). Para publicar na Play Store e preciso assina-lo.
