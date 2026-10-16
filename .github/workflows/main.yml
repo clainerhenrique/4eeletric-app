@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: npm i --no-save typescript
+      - run: npm i --no-save typescript@5.4.5
       - run: npx cap sync android
       - run: chmod +x android/gradlew && cd android && ./gradlew assembleDebug --stacktrace
       - uses: actions/upload-artifact@v4
